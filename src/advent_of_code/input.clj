@@ -1,6 +1,8 @@
 (ns advent-of-code.input
   (:require [clojure.string :as str]))
 
+(def day5 (str/trim (slurp "day-5-input.txt")))
+
 (def day4 (str/split-lines
            "[1518-11-07 00:21] falls asleep
 [1518-05-18 00:57] wakes up
